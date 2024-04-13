@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+}
+@media (min-width: 900px) {
+    /* Меню  */
+    .screen {
+        
+        height: 100vh;
+        width: 100vw;
+    }
+    .menu{
+        justify-content: space-between;
+    }
+    .menu-box {
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+        height: 100vh;
+        
+    }
+    .account{
+        justify-content: center;
+    }
+    .box-indiv{
+        align-items: center;
+    }
+    .box-indiv div{
+        gap: 115px;
+
+    }
+    .news-box{
+        width: 95%;
+    }
+    .screen__content {
+        height: 100vh;}
+    .news{
+        height: -webkit-fill-available;
+    }
+
+    /*  Аккаунт */
+
+    .ac{
+        width: min-content;
+    height: min-content;
+    margin: 0;
+    }
+    .box-ac{
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 729px;
+        height: auto;
+        justify-content: space-between;
+    }
+    .box-ac .menu{
+        padding: 0;
+       
+    }
+    .box-ac .menu a{
+        height: 125px;
+        width: 150px;
+    }
+    #exit{
+        width: -webkit-fill-available;
+    }
+    .cardaccount{
+        
+    width: 69%;
+    }
+    .cardaccount div{
+        margin: 0;
+    }
+}
